@@ -1,0 +1,66 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav > ul {
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  body {
+    background: black;
+    color: white;
+  }
+  
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #063970;
+  }
+  
+  #myname {
+    font-size: 5em;
+    border: white 3px solid;
+    padding: 0.25em 1em;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #063970;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+ 
