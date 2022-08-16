@@ -65,15 +65,11 @@ body {
     justify-content: space-around;
     background: #063970;
   }
-
-  #projects {
-    align-items: center;
-  }
   
   #first-project {
     display: flex;
     /* justify-content: center; */
-    width: 60%;
+    width: 50%;
     margin: auto;
   }
 
@@ -103,7 +99,7 @@ body {
     max-width: 300px;
     max-height: 300px;
   }
-  
+
   .project-title {
     display: flex;
     justify-content: center;
