@@ -24,7 +24,7 @@ body {
     text-decoration: underline;
   }
   
-  .nav > ul {
+  .nav ul {
     width: 25vw;
     display: flex;
     flex-direction: row; 
@@ -65,14 +65,56 @@ body {
     justify-content: space-around;
     background: #063970;
   }
+
+  #projects {
+    align-items: center;
+  }
   
+  #first-project {
+    display: flex;
+    /* justify-content: center; */
+    width: 60%;
+    margin: auto;
+  }
+
+
+#first-project-image-a {
+    width: 100%;
+    margin: 1em;
+}
+
+#first-project-image {
+  width: 100%;
+}
+
   .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns:33% 33%;
+    justify-content: space-around;
+    grid-auto-flow: row;
     grid-gap: 4rem;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 6rem;
+  }
+
+  .project-grid img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
+  .project-title {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 45em) { .project-grid {
+    display: grid;
+    grid-template-columns: 33%;
+    justify-content: center;
+    align-items: center;
+  }
+    
   }
  
