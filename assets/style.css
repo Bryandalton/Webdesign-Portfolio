@@ -19,7 +19,9 @@
     width: 25vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    gap: 2;
+    flex-wrap: wrap;
   }
   
   li {
