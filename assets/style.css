@@ -18,6 +18,7 @@ body {
   a {
     text-decoration: none;
     color: white;
+    margin: 0;
   }
 
   a:hover {
@@ -56,6 +57,7 @@ body {
     font-size: 5em;
     border: white 3px solid;
     padding: 0.25em 1em;
+    text-shadow: 2px 2px 5px black;
   }
   
   .contact {
@@ -68,7 +70,6 @@ body {
   
   #first-project {
     display: flex;
-    /* justify-content: center; */
     width: 50%;
     margin: auto;
   }
@@ -87,17 +88,15 @@ body {
     display: grid;
     grid-template-columns:33% 33%;
     justify-content: space-around;
-    grid-auto-flow: row;
     grid-gap: 4rem;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 6rem;
   }
 
   .project-grid img {
-    max-width: 300px;
-    max-height: 300px;
+    width: 100%;
   }
 
   .project-title {
