@@ -12,7 +12,7 @@ body {
     width: 100%;
     background: black;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-    z-index: 10;
+    padding: 15px;
   }
   
   a {
@@ -59,20 +59,30 @@ body {
     padding: 0.25em 1em;
     text-shadow: 2px 2px 5px black;
     text-align: center;
+    margin: 4rem;
+  }
+
+  #aboutme {
+    font-size: 150%;
   }
   
+  h2 {
+    font-size: 150%;
+  }
+
   .contact {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     background: #063970;
+    padding: 15px;
   }
   
   #first-project {
     display: flex;
     width: 50%;
-    margin: auto;
+    margin: 4rem auto;
   }
 
 #first-project-image {

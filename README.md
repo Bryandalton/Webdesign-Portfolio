@@ -9,7 +9,8 @@ A portfolio of work to display to potential employers and other interested parti
 N/A
 
 ## Usage
-N/A
+Users may click on titles or images and be taken to various applications on codepen.
+
 ![portfolio screenshot](./assets/images/Portfolio-screenshot.JPG)
 
 ## Credits
