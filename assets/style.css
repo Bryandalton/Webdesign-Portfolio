@@ -9,6 +9,7 @@ body {
     width: 100%;
     background: black;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    /* box shadow is subtle, but makes the nav bar pop */
     padding: 15px;
   }
 
@@ -62,9 +63,11 @@ body {
     text-shadow: 2px 2px 5px black;
     text-align: center;
     margin: 4rem;
+    border-radius: 10px;
   }
 
   #aboutme {
+    text-align: center;
     font-size: 150%;
   }
   
@@ -80,6 +83,8 @@ body {
     background: #063970;
     padding: 15px;
   }
+
+  /* first project separated to controll it's size independet of the rest of the grid  */
   
   #first-project {
     display: flex;
@@ -132,4 +137,4 @@ body {
   }
     
   }
- 
+ /* 45em was choosen because it fit the needs of the project and may be changed in future revisions */
