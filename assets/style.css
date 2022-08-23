@@ -6,12 +6,15 @@ body {
     display: flex;
     justify-content: flex-end;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     background: black;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     padding: 15px;
+  }
+
+  #self-portrait {
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
   }
   
   a {
