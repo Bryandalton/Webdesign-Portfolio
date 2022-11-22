@@ -84,7 +84,7 @@ body {
     padding: 15px;
   }
 
-  /* first project separated to controll it's size independet of the rest of the grid  */
+  /* first project separated to control it's size independent of the rest of the grid  */
   
   #first-project {
     display: flex;
