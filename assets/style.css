@@ -81,7 +81,8 @@ body {
     flex-direction: row;
     justify-content: space-around;
     background: #063970;
-    padding: 15px;
+    padding: 1.5rem;
+    font-size: 1.2rem;
   }
 
   /* first project separated to control it's size independent of the rest of the grid  */
